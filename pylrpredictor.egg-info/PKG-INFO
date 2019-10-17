@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: pylrpredictor
+Version: 0.1
+Summary: Predicting learning curves in python
+Home-page: http://packages.python.org/an_example_pypi_project
+Author: Tobias Domhan
+Author-email: tdomhan@gmail.com
+License: BSD
+Description: UNKNOWN
+Keywords: python learning curves,prediction
+Platform: UNKNOWN

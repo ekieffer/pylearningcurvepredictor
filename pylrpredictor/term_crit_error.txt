@@ -1,0 +1,36 @@
+Traceback (most recent call last):
+  File "prediction.py", line 271, in main
+    ret = term_crit.run()
+  File "prediction.py", line 158, in run
+    plotter = create_plotter("curve_combination",self.model)
+NameError: name 'create_plotter' is not defined
+name 'create_plotter' is not definedTraceback (most recent call last):
+  File "prediction.py", line 272, in main
+    ret = term_crit.run()
+  File "/usr/lib/python3.6/bdb.py", line 57, in trace_dispatch
+    return self.dispatch_exception(frame, arg)
+  File "/usr/lib/python3.6/bdb.py", line 113, in dispatch_exception
+    if self.quitting: raise BdbQuit
+bdb.BdbQuit
+Traceback (most recent call last):
+  File "prediction.py", line 272, in main
+    ret = term_crit.run()
+  File "prediction.py", line 160, in run
+    plotter.posterior_plot()
+  File "/home/manu/.Envs/predictor/local/lib/python3.6/site-packages/pylrpredictor/mcmcmodelplotter.py", line 155, in posterior_plot
+    self.posterior_sample_plot(*args, **kwargs)
+TypeError: posterior_sample_plot() missing 1 required positional argument: 'x'
+Traceback (most recent call last):
+  File "prediction.py", line 272, in main
+    ret = term_crit.run()
+  File "prediction.py", line 159, in run
+    plotter = create_plotter("curve",self.model)
+  File "/home/manu/.Envs/predictor/local/lib/python3.6/site-packages/pylrpredictor/modelfactory.py", line 102, in create_plotter
+    return CurveModelEnsemblePlotter(ensemble_curve_model)
+NameError: name 'ensemble_curve_model' is not defined
+name 'ensemble_curve_model' is not definedTraceback (most recent call last):
+  File "prediction.py", line 270, in main
+    ret = term_crit.run()
+  File "prediction.py", line 158, in run
+    plotter.posterior_plot(x=np.arange(1,18888888800))
+MemoryError

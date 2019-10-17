@@ -1,0 +1,8 @@
+numpy
+docutils>=0.3
+setuptools
+matplotlib
+emcee
+scipy
+lmfit
+triangle
